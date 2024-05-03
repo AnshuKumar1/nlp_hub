@@ -1,0 +1,11 @@
+SENTENCE_COMPRESSION:
+  PROJECT_DIR: os.getcwd()
+  DATA:
+    RAW_DATA: https://github.com/google-research-datasets/sentence-compression.git
+    RAW_DIR: dataset/rawdata
+    CLEAN_DATA: dataset/preprocessed
+  TRAINING:
+  INFERENCE:
+    MODEL_PATH: checkpoints
+  OUTPUT:
+    RESULT: results
