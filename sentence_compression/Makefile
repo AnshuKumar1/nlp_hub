@@ -23,4 +23,4 @@ clean:
 	@rm -rf dataset/preprocessed/* checkpoints/* results/*;
 
 zip:
-	@tar --exclude=".[^/]*" -czvf "AnshuKumar-RingCentral-$(shell date +"%Y%m%d").tar.gz" *
+	@tar --exclude=".[^/]*" -czvf "sentence_compressiom-$(shell date +"%Y%m%d").tar.gz" *
