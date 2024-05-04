@@ -22,5 +22,3 @@ clean:
 	@find . -name "*.pyc" -exec rm {} \;
 	@rm -rf dataset/preprocessed/* checkpoints/* results/*;
 
-zip:
-	@tar --exclude=".[^/]*" -czvf "AnshuKumar-RingCentral-$(shell date +"%Y%m%d").tar.gz" *
